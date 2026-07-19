@@ -1,0 +1,23 @@
+name: morse_flash
+description: Flashlight Morse code messenger — type a message, your phone flashes it in Morse; another phone's camera decodes it.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  torch_light: ^1.1.0
+  camera: ^0.10.6
+  permission_handler: ^11.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
